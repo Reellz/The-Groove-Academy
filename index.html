@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/TGA.PNG">
+    <link rel="shortcut icon" href="./images/TGA.png">
     <title>The Groove Academy | Music School</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -19,15 +19,19 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1>The Groove Academy</h1>
-                <p>Find your rhythm. Master your sound.</p>
+                <img src="./images/TGA.png" alt="The Groove Academy Logo">
+                <div class="logo-text">
+                    <h1>The Groove Academy</h1>
+                    <p>Find your rhythm. Master your sound.</p>
+                </div>
             </div>
+
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="/about.html">About us</a></li>
-                    <li><a href="/classes.html">Courses</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="./pages/about.html">About us</a></li>
+                    <li><a href="./pages/classes.html">Courses</a></li>
+                    <li><a href="./pages/contact.html">Contact</a></li>
                 </ul>
                 <div class="mobile-menu">
                     <i class="fas fa-bars"></i>
@@ -36,13 +40,14 @@
         </div>
     </header>
 
+
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
                 <h2>Unlock Your Musical Potential</h2>
                 <p>Join our community of passionate musicians and take your skills to the next level with our expert
                     instructors.</p>
-                <a href="/classes.html" class="btn">Explore Courses</a>
+                <a href="./pages/classes.html" class="btn">Explore Courses</a>
             </div>
         </div>
     </section>
@@ -53,39 +58,33 @@
             <div class="course-grid">
                 <div class="course-card">
                     <i class="fas fa-guitar"></i>
-                    <h3>Guitar</h3>
+                    <h3>Acoustic Guitar</h3>
                     <p>From beginner chords to advanced solos, master the guitar at your own pace.</p>
-                    <span class="price">$99/month</span>
+                    <span class="price">UGX 8,000 - 10,000/hour</span>
                 </div>
                 <div class="course-card">
                     <i class="fas fa-piano"></i>
                     <h3>Piano</h3>
                     <p>Classical, jazz, or contemporary - our piano program covers it all.</p>
-                    <span class="price">$120/month</span>
+                    <span class="price">UGX 10,000/hour</span>
                 </div>
                 <div class="course-card">
                     <i class="fas fa-drum"></i>
                     <h3>Drums</h3>
-                    <p>Develop rhythm, technique, and musicality with our expert drum instructors.</p>
-                    <span class="price">$110/month</span>
+                    <p>This particular curriculum is still in development.</p>
+                    <span class="price">Coming Soon!!!</span>
                 </div>
                 <div class="course-card">
                     <i class="fas fa-microphone"></i>
                     <h3>Vocal Training</h3>
-                    <p>Improve your voice with professional techniques and performance coaching.</p>
-                    <span class="price">$95/month</span>
-                </div>
-                <div class="course-card">
-                    <i class="fas fa-music"></i>
-                    <h3>Music Theory</h3>
-                    <p>Understand the language of music to enhance all your musical endeavors.</p>
-                    <span class="price">$85/month</span>
+                    <p>This particular curriculum is still in development.</p>
+                    <span class="price">Coming Soon!!!</span>
                 </div>
                 <div class="course-card">
                     <i class="fas fa-headphones"></i>
                     <h3>Music Production</h3>
                     <p>Learn to record, mix, and produce professional quality music.</p>
-                    <span class="price">$150/month</span>
+                    <span class="price">Coming Soon!!!</span>
                 </div>
             </div>
         </div>
@@ -96,28 +95,19 @@
             <h2>Meet Our Instructors</h2>
             <div class="teacher-grid">
                 <div class="teacher-card">
-                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson">
-                    <h3>Sarah Johnson</h3>
-                    <p class="instrument">Piano & Music Theory</p>
-                    <p>Juilliard graduate with 15 years of teaching experience.</p>
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Anatwasi Persis">
+                    <h3>Anatwasi Persis</h3>
+                    <p class="instrument">Piano</p>
                 </div>
                 <div class="teacher-card">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Marcus Lee">
-                    <h3>Marcus Lee</h3>
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Bwambale Reuel">
+                    <h3>Bwambale Reuel</h3>
                     <p class="instrument">Guitar</p>
-                    <p>Toured with Grammy-winning artists and passionate about teaching.</p>
                 </div>
                 <div class="teacher-card">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Elena Rodriguez">
-                    <h3>Elena Rodriguez</h3>
-                    <p class="instrument">Vocals</p>
-                    <p>Professional singer with Broadway credits and a love for nurturing voices.</p>
-                </div>
-                <div class="teacher-card">
-                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David Chen">
-                    <h3>David Chen</h3>
-                    <p class="instrument">Drums & Percussion</p>
-                    <p>Session drummer for major recording artists and enthusiastic educator.</p>
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Apipawe Isaac">
+                    <h3>Apipawe Isaac</h3>
+                    <p class="instrument">Music Production</p>
                 </div>
             </div>
         </div>
@@ -215,9 +205,9 @@
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="classes.html">Courses</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="./pages/classes.html">Courses</a></li>
+                        <li><a href="./pages/about.html">About</a></li>
+                        <li><a href="./pages/contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -231,7 +221,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 The Groove Academy. All rights reserved.</p>
+                <p>&copy; <span id="currentYear"></span> The Groove Academy. All rights reserved.</p>
             </div>
         </div>
     </footer>

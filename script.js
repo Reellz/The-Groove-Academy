@@ -233,3 +233,10 @@ document.addEventListener("DOMContentLoaded", function () {
   checkScroll();
   window.addEventListener("scroll", checkScroll);
 });
+
+// Copyright Year Update
+const yearSpan = document.getElementById("currentYear");
+if (yearSpan) {
+  yearSpan.textContent = new Date().getFullYear();
+} 
+// End of script.js

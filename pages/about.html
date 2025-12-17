@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/TGA.PNG" id="favicon">
+    <link rel="shortcut icon" href="../images/TGA.png">
     <title>About Us | The Groove Academy</title>
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,15 +19,19 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1>The Groove Academy</h1>
-                <p>Find your rhythm. Master your sound.</p>
+                <img src="../images/TGA.png" alt="The Groove Academy Logo">
+                <div class="logo-text">
+                    <h1>The Groove Academy</h1>
+                    <p>Find your rhythm. Master your sound.</p>
+                </div>
             </div>
+
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="/about.html">About us</a></li>
-                    <li><a href="/classes.html">Courses</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="classes.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <div class="mobile-menu">
                     <i class="fas fa-bars"></i>
@@ -35,6 +39,7 @@
             </nav>
         </div>
     </header>
+
 
     <section class="about-hero">
         <div class="container">
@@ -67,43 +72,11 @@
             <h2>Our History</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-year">2010</div>
+                    <div class="timeline-year">2025</div>
                     <div class="timeline-content">
                         <h3>Founded by Music Enthusiasts</h3>
-                        <p>The Groove Academy was established by a group of professional musicians who shared a common
+                        <p>The Groove Academy was established by a group of musicians who shared a common
                             vision for innovative music education.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2012</div>
-                    <div class="timeline-content">
-                        <h3>First Location Opened</h3>
-                        <p>Our flagship studio opened in downtown Melody City with just three instructors and a handful
-                            of students.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2015</div>
-                    <div class="timeline-content">
-                        <h3>Expanded Curriculum</h3>
-                        <p>We introduced our music production program, responding to growing student interest in digital
-                            music creation.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2018</div>
-                    <div class="timeline-content">
-                        <h3>Second Location</h3>
-                        <p>Due to popular demand, we opened our second location in Harmony Heights, doubling our
-                            teaching capacity.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2023</div>
-                    <div class="timeline-content">
-                        <h3>Online Learning Platform</h3>
-                        <p>We launched our virtual learning platform, making our courses accessible to students
-                            worldwide.</p>
                     </div>
                 </div>
             </div>
@@ -167,7 +140,7 @@
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="classes.html">Courses</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -184,12 +157,12 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 The Groove Academy. All rights reserved.</p>
+                <p>&copy; <span id="currentYear"></span> The Groove Academy. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 
 </html>

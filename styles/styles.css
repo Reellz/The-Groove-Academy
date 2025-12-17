@@ -96,14 +96,25 @@ header .container {
     padding: 1rem 0;
 }
 
-.logo h1 {
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img {
+    height: 50px; 
+    width: auto;
+}
+
+.logo-text h1 {
     font-size: 1.8rem;
     color: var(--primary-color);
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
-.logo p {
+.logo-text p {
     font-size: 0.9rem;
     color: var(--text-light);
 }
@@ -495,13 +506,16 @@ footer {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     color: #fff;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    text-align: center;
 }
 
 .social-icons a:hover {
     background: var(--secondary-color);
     color: var(--dark-color);
+    transform: translateY(-3px); 
 }
+
 
 .copyright {
     text-align: center;
